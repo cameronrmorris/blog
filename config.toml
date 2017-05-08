@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "https://cameronrmorris.com"
 theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = true
@@ -17,7 +17,7 @@ blog = "blog/:slug/"
 [params]
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Example blog"
+description = "Cameron's blog"
 copyright = "Copyright © 2017 Cameron Morris"
 logofile = "img/logo.jpg"
 faviconfile = "img/logo.jpg"
