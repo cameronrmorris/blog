@@ -2,7 +2,6 @@
 title: "Welcome"
 date: 2017-07-23
 tags: []
-draft: true
 ---
 Hi there. This is my first blog post. I've recently discovered Hugo and it fits nicely with my curiosity of markdown formats.
 
