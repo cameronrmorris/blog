@@ -1,45 +1,55 @@
-baseurl = "https://cameronrmorris.com/"
-theme = "cocoa-eh"
-builddrafts = true
-canonifyurls = true
-contentdir = "content"
-languageCode = "en-US"
-layoutdir = "layouts"
-publishdir = "public"
-author = "Cameron Morris"
-title = "Cameron's castrum"
-disqusshortname = ""
-pluralizelisttitles = false
-
-[permalinks]
-blog = "blog/:slug/"
+baseURL = "https://cameron/"
+languageCode = "en-us"
+title = "Cameron's Castrum"
+theme = "minimal"
 
 [params]
-dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Cameron's blog"
-copyright = "Copyright © 2017 Cameron Morris"
-logofile = "img/logo.jpg"
-faviconfile = "img/logo.jpg"
-highlightjs = true
-progressively = true
-latestpostcount = 5
-github = "zephyrz4"
-email = "cameron.morris3@gmail.com"
-linkedin = "cameron-morris-bb9b2733"
-twitter = "cameronrmorris"
-social_banner = "img/banner.png"
-posts_navigation = true
+    author = "Cameron Morris"
+    description = "A personal blog"
+    githubUsername = "zephyrz4"
+    accent = "gray"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Quicksand" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
-[params.colors]
-identifier = "#527fc1f"
-identifier_dark = "#1a3152"
-trivial = "#6a7a8b"
-foreground = "#181d2a"
-background = "#f9f9f9"
-background_dark = "#282a36"
-code = "#87a5d2"
-type = "#97d28b"
-special = "#ffcb8d"
-value = "#96c2d7"
-statement = "#ff8e91"
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:cameron.morris3@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/zephyrz4/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/cameronrmorris/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/cameron-morris-bb9b2733/"
+    name = "linkedin"
+    weight = 4
