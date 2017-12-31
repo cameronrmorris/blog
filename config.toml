@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://cameronrmorris.com/"
 languageCode = "en-us"
 title = "Cameron's Castrum"
 theme = "minimal"
