@@ -1,0 +1,60 @@
+#+hugo_base_dir: ../
+#+seq_todo: TODO DRAFT DONE
+#+options: creator:t
+#+property: header-args :eval never-export
+
+#+title: cameronrmorris.com
+#+author: Cameron Morris
+#+email: cameron.morris3@gmail.com
+
+* Table of Contents                                            :TOC_3:noexport:
+- [[#pages][Pages]]
+  - [[#about][About]]
+- [[#projects][Projects]]
+  - [[#home-automation][Home Automation]]
+- [[#posts][Posts]]
+  - [[#general][General]]
+    - [[#welcome][Welcome]]
+  - [[#biking][Biking]]
+  - [[#nature][Nature]]
+
+* Pages
+This section contains all the static pages.
+** TODO About
+:PROPERTIES:
+:export_hugo_section: ./
+:export_file_name: about
+:export_hugo_aliases: /about.html
+:END:
+*Who:*
+*What:*
+*Where:*
+* Projects
+:PROPERTIES:
+:export_hugo_section: project
+:END:
+Project pages
+** Home Automation                                           :homeautomation:
+* Posts
+:PROPERTIES:
+:export_hugo_section: post
+:END:
+Blog posts.
+** General
+*** DONE Welcome
+    CLOSED: [2017-07-23]
+    :PROPERTIES:
+    :export_file_name: welcome
+    :END:
+    Hi there. This is my first blog post. I've recently discovered Hugo and it
+    fits nicely with my curiosity of markdown formats.
+
+    A little bit about myself. I have been a software engineer at Amadeus for about
+    3 years now. I work in the travel payments team. I enjoy bicycling, hiking and
+    good food.
+
+    I hope that this blog will bring some interesting things in the future. Until then.
+
+    Cameron
+** Biking :bicycle:
+** Nature :nature:
