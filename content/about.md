@@ -2,7 +2,6 @@
 title = "About"
 author = ["Cameron Morris"]
 date = 2018-04-30T19:19:00-04:00
-aliases = ["/about.html"]
 draft = false
 creator = "Emacs 25.3.1 (Org mode 9.1.7 + ox-hugo)"
 +++

@@ -25,7 +25,6 @@ This section contains all the static pages.
 :PROPERTIES:
 :export_hugo_section: ./
 :export_file_name: about
-:export_hugo_aliases: /about.html
 :END:
 *Who:* I am a programmer, bicycle enthusiast and overall geek.
 
